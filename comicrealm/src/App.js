@@ -9,12 +9,30 @@ import {
 } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 import NavBar from "./components/navBar/NavBar";
+import MainPage from "./components/landingPage/MainPage";
+import Comics from "./components/Comics/Comics";
+import News from "./components/News/News";
+import AboutMe from "./components/AboutMe/AboutMe";
+import Contact from "./components/Contact/Contact";
+import Welcome from "./components/WelcomePage/Welcome";
 
 function App() {
   return (
-    <>
-        <NavBar/>
-      </>
+
+        <HashRouter>
+            <>
+            <NavBar/>
+            <Switch>
+                <Route exact path={'/'} component={Welcome}/>
+                <Route path={'/main'} component={MainPage}/>
+                <Route path={'/comics'} component={Comics}/>
+                <Route path={'/news'} component={News}/>
+                <Route path={'/about'} component={AboutMe}/>
+                <Route path={'/contact'} component={Contact}/>
+            </Switch>
+            </>
+        </HashRouter>
+
   );
 }
 

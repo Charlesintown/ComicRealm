@@ -1,0 +1,13 @@
+const comicDB = {
+    "batman": [{
+        "id": 0,
+        "title": "Batman Detective",
+        "description": "batman saves the world"
+    }, {
+        "id": 1,
+        "title": "Batman i Robin",
+        "description": "he did it again"
+    }]
+};
+
+export default comicDB;

@@ -1,5 +1,12 @@
 import React from 'react';
-import { Container, Row,  Col} from 'react-bootstrap'
+import { Container, Row,  Col} from 'react-bootstrap';
+import {
+    HashRouter,
+    Route,
+    Link,
+    Switch,
+    NavLink,
+} from 'react-router-dom';
 
 const NavBar = () => {
     return (
@@ -7,11 +14,21 @@ const NavBar = () => {
             <div>
                 <Container>
                     <Row>
-                        <Col>BrandName</Col>
-                        <Col>Comics</Col>
-                        <Col>News</Col>
-                        <Col>About me</Col>
-                        <Col>Contact</Col>
+                        <Col>
+                            <Link to={'/main'}>BrandName</Link>
+                        </Col>
+                        <Col>
+                            <Link to={'/comics'}>Comics</Link>
+                        </Col>
+                        <Col>
+                            <Link to={'/news'}>News</Link>
+                        </Col>
+                        <Col>
+                            <Link to={'/about'}>About Me</Link>
+                        </Col>
+                        <Col>
+                            <Link to={'/contact'}>Contact</Link>
+                        </Col>
                     </Row>
                 </Container>
             </div>
