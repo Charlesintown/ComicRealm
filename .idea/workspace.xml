@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21356c9c-1023-4f4d-a39e-6d50d6eeeccb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/comicrealm/src/components/landingPage/MainPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comicrealm/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comicrealm/src/components/AboutMe/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/components/AboutMe/AboutMe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/comicsDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/comicsDB.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comicrealm/src/components/Comics/Comics.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/components/Comics/Comics.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comicrealm/src/components/Contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/components/Contact/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comicrealm/src/components/News/News.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/components/News/News.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comicrealm/src/components/landingPage/LandingPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/comicrealm/src/components/navBar/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/components/navBar/NavBar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +39,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/comicrealm/src" />
       <recent name="$PROJECT_DIR$/comicrealm/src/styles" />
     </key>
   </component>
@@ -59,6 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584953743395</updated>
       <workItem from="1584953746033" duration="13332000" />
+      <workItem from="1584979328997" duration="8450000" />
     </task>
     <servers />
   </component>
@@ -74,5 +70,13 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1584958923840" />
+    <state x="761" y="472" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584986177214">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="761" y="472" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1584986177214" />
+    <state x="657" y="198" width="670" height="676" key="search.everywhere.popup" timestamp="1584980013780">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="657" y="198" width="670" height="676" key="search.everywhere.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1584980013780" />
   </component>
 </project>
