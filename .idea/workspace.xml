@@ -3,8 +3,73 @@
   <component name="ChangeListManager">
     <list default="true" id="21356c9c-1023-4f4d-a39e-6d50d6eeeccb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comicrealm/src/comicsDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/comicsDB.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comicrealm/src/components/Comics/Comics.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/components/Comics/Comics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/components/News/News.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/components/News/News.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id21.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id23.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id24.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id25.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id26.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id27.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id27.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id28.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id29.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id29.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id30.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id30.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id31.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id31.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id32.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id32.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id33.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id33.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id34.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id34.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id35.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id35.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id36.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id36.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id37.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id37.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id38.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id38.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id39.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id39.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id40.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id40.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id41.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id41.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id42.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id42.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id43.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id43.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id44.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id44.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id45.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id45.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id46.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id46.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id47.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id47.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id48.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id48.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id49.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id49.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id50.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id50.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id51.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id51.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id52.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id52.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id53.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id53.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id54.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id54.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id55.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id55.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id56.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id56.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id57.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id57.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id58.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id58.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id59.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id59.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id60.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id60.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/miniatures/id9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/covers/id9.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +104,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/comicrealm/public" />
       <recent name="$PROJECT_DIR$/comicrealm/src" />
       <recent name="$PROJECT_DIR$/comicrealm/src/styles" />
     </key>
@@ -55,6 +121,7 @@
       <updated>1584953743395</updated>
       <workItem from="1584953746033" duration="13332000" />
       <workItem from="1584979328997" duration="8450000" />
+      <workItem from="1585037214606" duration="24124000" />
     </task>
     <servers />
   </component>

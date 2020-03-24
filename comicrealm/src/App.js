@@ -15,6 +15,7 @@ import News from "./components/News/News";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Contact from "./components/Contact/Contact";
 import Welcome from "./components/WelcomePage/Welcome";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
                 <Route path={'/about'} component={AboutMe}/>
                 <Route path={'/contact'} component={Contact}/>
             </Switch>
+            <Footer/>
             </>
         </HashRouter>
 
