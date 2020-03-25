@@ -12,31 +12,33 @@ import { Container, Row,  Col} from 'react-bootstrap';
 const MainPage = () => {
     return (
         <Container>
-            <Row>
-                <Col>
-                    <h1>Co będziesz dalej robił, tu będzie punk startu</h1>
-                </Col>
-            </Row>
-            <Row>
-                    <Col>Tu będzie sekcja do komiksów</Col>
-                    <Col>Tu będzie jakiś obrazek mały</Col>
-                    <Col><Link to={'/comics'}>komiksy</Link></Col>
-            </Row>
-            <Row>
-                <Col>Tu będzie sekcja do newsów</Col>
-                <Col>Tu będzie jakiś obrazek mały</Col>
-                <Col><Link to={'/news'}>news</Link></Col>
-            </Row>
-            <Row>
-                <Col>Tu będzie sekcja do about</Col>
-                <Col>Tu będzie jakiś obrazek mały</Col>
-                <Col><Link to={'/about'}>o mnie</Link></Col>
-            </Row>
-            <Row>
-                <Col>Tu będzie sekcja do kontaktu</Col>
-                <Col>Tu będzie jakiś obrazek mały</Col>
-                <Col><Link to={'/contact'}>kontakt</Link></Col>
-            </Row>
+            <div className={"landingSection"}>
+                <Row>
+                    <Col>
+                        <h1>WHAT DO YOU WANT TO VISIT ?</h1>
+                    </Col>
+                </Row>
+                <Row className={"landingRow landRow1"}>
+                    <Col xs={2}><h2>COMICS</h2></Col>
+                    <Col xs={8}></Col>
+                    <Col xs={2} className={"linkCol"}><Link className={"mainLinks"} to={'/comics'}>GO! <i className="fas fa-angle-double-right"></i></Link></Col>
+                </Row>
+                <Row className={"landingRow landRow2"}>
+                    <Col xs={2}><h2>NEWS</h2></Col>
+                    <Col xs={8}></Col>
+                    <Col xs={2} className={"linkCol"}><Link className={"mainLinks"} to={'/news'}>GO! <i className="fas fa-angle-double-right"></i></Link></Col>
+                </Row>
+                <Row className={"landingRow landRow3"}>
+                    <Col xs={2}><h2>ABOUT ME</h2></Col>
+                    <Col xs={8}></Col>
+                    <Col xs={2} className={"linkCol"}><Link className={"mainLinks"} to={'/about'}>GO! <i className="fas fa-angle-double-right"></i></Link></Col>
+                </Row>
+                <Row className={"landingRow landRow4"}>
+                    <Col xs={2}><h2>CONTACT</h2></Col>
+                    <Col xs={8}></Col>
+                    <Col xs={2} className={"linkCol"}><Link className={"mainLinks"} to={'/contact'}>GO! <i className="fas fa-angle-double-right"></i></Link></Col>
+                </Row>
+            </div>
         </Container>
     )
 };

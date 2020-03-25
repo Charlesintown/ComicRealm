@@ -1,0 +1,84 @@
+.landingSection {
+  margin-top: 20%;
+
+  h1 {
+    color: white;
+    text-shadow: 0 0 10px #884DFF;
+    margin-bottom: 2rem;
+  }
+
+  .landRow1 {
+    background: url("../navBanners/batblack.jpg") no-repeat bottom;
+    background-size: cover;
+  }
+
+  .landRow1:hover {
+    background: url("../navBanners/batcolor.jpg") no-repeat bottom;
+    background-size: cover;
+  }
+
+  .landRow2 {
+    background: url("../navBanners/harleyblack.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  .landRow2:hover {
+    background: url("../navBanners/harleycolor.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  .landRow3 {
+    background: url("../navBanners/supercblack.jpg") no-repeat bottom;
+    background-size: cover;
+  }
+
+  .landRow3:hover {
+    background: url("../navBanners/supercolor.jpg") no-repeat bottom;
+    background-size: cover;
+  }
+
+  .landRow4 {
+    background: url("../navBanners/redhoodblack.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  .landRow4:hover {
+    background: url("../navBanners/redhoodcolor.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  .landingRow {
+    height: 5rem;
+    text-align: center;
+    border: 2px white solid;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    //background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    h2 {
+      color: white;
+      margin-top: 1rem;
+    }
+
+
+
+
+
+    .mainLinks {
+      color: white;
+      font-size: 2rem;
+      text-decoration: none;
+
+    }
+
+    .linkCol {
+      margin-top: 0.8rem;
+    }
+
+  }
+
+  .landingRow:hover {
+    box-shadow: 0 0 15px #884DFF;
+    text-shadow: 0 0 10px #884DFF;
+  }
+
+}

@@ -30,19 +30,21 @@ const Comics = () => {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
+    const comicL = document.querySelector(".comicL");
+
     const showCovers = (allHeroes) => {
       return allHeroes.map(hero => {
           return (
               hero.map(el => {
                   return (
-                      <Card style={{ width: '13rem', display: "inline-block", marginBottom: "2rem", marginTop: "2rem"}}>
+                      <Card className={"cardo"} style={{ width: '13rem', display: "inline-block", marginBottom: "2rem", marginTop: "2rem"}}>
                           <Card.Img variant="top" src={`${coverPaths + el.cover}`} />
                           <Card.Body>
                               <Card.Title style={{fontSize: "1rem", height: "3rem"}}>{el.title}</Card.Title>
                               {/*<Card.Text style={{fontSize: "1rem"}}>*/}
                               {/*    {el.description}*/}
                               {/*</Card.Text>*/}
-                              <Button onClick={likeIt} variant="primary"><i className="far fa-heart"></i> I want it!</Button>
+                              <Button onClick={likeIt} variant="primary" style={{border: "none", backgroundImage: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"}}><i className="far fa-heart"></i> I want it!</Button>
                           </Card.Body>
                       </Card>
                   )

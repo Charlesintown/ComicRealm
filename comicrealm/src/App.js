@@ -22,16 +22,19 @@ function App() {
 
         <HashRouter>
             <>
-            <NavBar/>
-            <Switch>
-                <Route exact path={'/'} component={Welcome}/>
-                <Route path={'/main'} component={MainPage}/>
-                <Route path={'/comics'} component={Comics}/>
-                <Route path={'/news'} component={News}/>
-                <Route path={'/about'} component={AboutMe}/>
-                <Route path={'/contact'} component={Contact}/>
-            </Switch>
-            <Footer/>
+            <div className={"contentWrap"}>
+                <NavBar/>
+                <Switch>
+                    <Route exact path={'/'} component={Welcome}/>
+                    <Route path={'/main'} component={MainPage}/>
+                    <Route path={'/comics'} component={Comics}/>
+                    <Route path={'/news'} component={News}/>
+                    <Route path={'/about'} component={AboutMe}/>
+                    <Route path={'/contact'} component={Contact}/>
+                </Switch>
+                <Footer/>
+            </div>
+
             </>
         </HashRouter>
 
