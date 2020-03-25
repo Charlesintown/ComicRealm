@@ -1,0 +1,104 @@
+.welcomeColumn {
+  text-align: center;
+  color: white;
+  margin-top: 10vh;
+
+  h1 {
+    font-size: 4rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+
+  span {
+    font-weight: bold;
+    text-shadow: 0 0 10px #884DFF;
+
+  }
+}
+
+.imgBox {
+  height: 35vh;
+  margin: 0.3rem;
+  border: 2px white solid;
+  border-radius: 5px;
+}
+
+.iB1 {
+  background: url("../welcomeCovers/bartmanRebblack.jpg") bottom no-repeat;
+  background-size: cover;
+}
+
+.iB1:hover {
+  box-shadow: 0 0 10px #884DFF;
+  background: url("../welcomeCovers/bartmanRebcol.jpg") bottom no-repeat;
+  background-size: cover;
+
+}
+
+.iB2 {
+  background: url("../welcomeCovers/wonderRebblack.jpg") no-repeat;
+  background-size: cover;
+}
+
+.iB2:hover {
+  box-shadow: 0 0 10px #884DFF;;
+  background: url("../welcomeCovers/wonderRebcol.jpg") no-repeat;
+  background-size: cover;
+
+}
+
+.iB3 {
+  background: url("../welcomeCovers/allRebirthblack.jpg") no-repeat;
+  background-size: cover;
+}
+
+.iB3:hover {
+  box-shadow: 0 0 10px #884DFF;;
+  background: url("../welcomeCovers/allRebirthcol.jpg") no-repeat;
+  background-size: cover;
+
+}
+
+.iB4 {
+  background: url("../welcomeCovers/harleyRebblack.jpg") no-repeat;
+  background-size: cover;
+}
+
+.iB4:hover {
+  box-shadow: 0 0 10px #884DFF;;
+  background: url("../welcomeCovers/harleyRebcol.jpg") no-repeat;
+  background-size: cover;
+
+}
+
+.iB5 {
+  background: url("../welcomeCovers/flashRebblack.jpg") no-repeat;
+  background-size: cover;
+}
+
+.iB5:hover {
+  box-shadow: 0 0 10px #884DFF;;
+  background: url("../welcomeCovers/flashRebcol.jpg") no-repeat;
+  background-size: cover;
+
+}
+
+.enterPageLink {
+  text-align: center;
+  margin-top: 3rem;
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 10rem;
+  }
+
+  a:hover {
+    box-shadow: 0 0 10px #884DFF;;
+
+  }
+}

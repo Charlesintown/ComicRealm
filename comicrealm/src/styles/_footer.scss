@@ -16,11 +16,16 @@
   .footerLink {
     text-align: right;
     margin-top: 1rem;
-    text-decoration: none;
 
   }
   .welcomeLink {
     color: white;
+    text-decoration: none;
 
+  }
+
+
+  .welcomeLink:hover {
+    text-shadow: 0 0 10px #884DFF;
   }
 }

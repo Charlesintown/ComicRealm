@@ -13,10 +13,21 @@ const Welcome = () => {
     return (
         <Container>
             <Row>
-                <Col>
-                    <h1>Witaj na stronie żałośniku</h1>
-                    <p>Tutaj będziesz mógł przejść do strony</p>
-                    <Link to={'/main'}>Let's Start!</Link>
+                <Col className={"welcomeColumn"}>
+                    <h1>WELCOME TO THE <span>COMICREALM</span></h1>
+                    <p>..it's a place made of a piece of <span>DC Universe.</span></p>
+                </Col>
+            </Row>
+            <Row>
+                <Col className={"imgBox iB1"}></Col>
+                <Col className={"imgBox iB2"}></Col>
+                <Col className={"imgBox iB3"}></Col>
+                <Col className={"imgBox iB4"}></Col>
+                <Col className={"imgBox iB5"}></Col>
+            </Row>
+            <Row>
+                <Col className={"enterPageLink"}>
+                    <Link to={'/main'}>Let's Begin!</Link>
                 </Col>
             </Row>
         </Container>

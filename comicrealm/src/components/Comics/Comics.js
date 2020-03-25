@@ -37,14 +37,14 @@ const Comics = () => {
           return (
               hero.map(el => {
                   return (
-                      <Card className={"cardo"} style={{ width: '13rem', display: "inline-block", marginBottom: "2rem", marginTop: "2rem"}}>
+                      <Card className={"cardComic"}>
                           <Card.Img variant="top" src={`${coverPaths + el.cover}`} />
                           <Card.Body>
-                              <Card.Title style={{fontSize: "1rem", height: "3rem"}}>{el.title}</Card.Title>
+                              <Card.Title className={"cardComicTitle"}>{el.title}</Card.Title>
                               {/*<Card.Text style={{fontSize: "1rem"}}>*/}
                               {/*    {el.description}*/}
                               {/*</Card.Text>*/}
-                              <Button onClick={likeIt} variant="primary" style={{border: "none", backgroundImage: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"}}><i className="far fa-heart"></i> I want it!</Button>
+                              <Button className={"comicButton"} onClick={likeIt} variant="primary"><i className="far fa-heart"></i> I want it!</Button>
                           </Card.Body>
                       </Card>
                   )
@@ -104,15 +104,15 @@ const Comics = () => {
                   </Modal>
               </div>
           </div>
-          <Row>
-              <Col><button id={0} onClick={showHero}>Batman</button></Col>
-              <Col><button id={1} onClick={showHero}>Superman</button></Col>
-              <Col><Button id={2} onClick={showHero}>Wonder Woman</Button></Col>
-              <Col><Button id={3} onClick={showHero}>Harley Quinn</Button></Col>
-              <Col><Button id={4} onClick={showHero}>Batgirl</Button></Col>
-              <Col><Button id={5} onClick={showHero}>Joker</Button></Col>
-              <Col><Button onClick={showAllCovers}>All</Button></Col>
-          </Row>
+          <div className={"avatarButtons"}>
+              <div className={"batAvatar"} id={0} onClick={showHero}> </div>
+              <div className={"batAvatar"} id={1} onClick={showHero}> </div>
+              <div className={"batAvatar"} id={2} onClick={showHero}>  </div>
+              <div className={"batAvatar"} id={3} onClick={showHero}> </div>
+              <div className={"batAvatar"} id={4} onClick={showHero}> </div>
+              <div className={"batAvatar"} id={5} onClick={showHero}> </div>
+              <div className={"batAvatar"} onClick={showAllCovers}> </div>
+          </div>
               {showCovers(covers)}
 
 
