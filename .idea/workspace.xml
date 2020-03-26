@@ -4,9 +4,10 @@
     <list default="true" id="21356c9c-1023-4f4d-a39e-6d50d6eeeccb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comicrealm/src/components/Comics/Comics.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/components/Comics/Comics.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comicrealm/src/components/WelcomePage/Welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/components/WelcomePage/Welcome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comicrealm/src/styles/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/styles/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comicrealm/src/styles/_welcomePage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/styles/_welcomePage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/components/News/News.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/components/News/News.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/components/News/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/components/News/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/newsDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/newsDB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/styles/_comics.scss" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/styles/_comics.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comicrealm/src/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/styles/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +61,9 @@
       <workItem from="1584953746033" duration="13332000" />
       <workItem from="1584979328997" duration="8450000" />
       <workItem from="1585037214606" duration="24364000" />
-      <workItem from="1585123271255" duration="28689000" />
+      <workItem from="1585123271255" duration="29136000" />
+      <workItem from="1585207178579" duration="17624000" />
+      <workItem from="1585239764057" duration="275000" />
     </task>
     <servers />
   </component>

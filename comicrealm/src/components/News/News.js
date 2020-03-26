@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {
     HashRouter,
     Route,
@@ -17,38 +17,62 @@ const News = () => {
 
 
     const allNews = newsDB.news;
+    const[imgChange, setImgChange] = useState(false);
+
+
+    const change = (id) => {
+        const news = document.querySelectorAll(".newsCard");
+        const news2 = [...news];
+        news2[id].firstElementChild.style.backgroundImage = `url(${newsPaths + allNews[id].cover})`;
+        setImgChange(prevState => true)
+    };
+
+    const undoChange = (id) => {
+        const news = document.querySelectorAll(".newsCard");
+        const news2 = [...news];
+        news2[id].firstElementChild.style.backgroundImage = `url(${newsPaths + allNews[id].cover2})`;
+        setImgChange(prevState => false)
+    };
+
+    const changeBanner = () => {
+        const banner = document.querySelector(".jumboNews");
+        banner.style.backgroundImage = `url(${newsPaths}bannerCol.jpg)`
+    };
+
+    const unChangeBanner = () => {
+        const banner = document.querySelector(".jumboNews");
+        banner.style.backgroundImage = `url(${newsPaths}bannerBlack.jpg)`
+    };
 
     const showAllNews = (news) => {
     return news.map(el => {
-        return ( <Col><Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={`${newsPaths + el.cover}`} />
+        return ( <Col><Card id={`${el.id}`} onMouseEnter={e => change(`${el.id}`)} onMouseLeave={e => undoChange(`${el.id}`)} className={"newsCard"} style={{ width: '18rem' }}>
+                <div id={`${newsPaths + el.id}`} className={"imgNews"} style={{backgroundImage: `url(${newsPaths + el.cover2})`}}> </div>
                 <Card.Body>
-                    <Card.Title>{el.title}</Card.Title>
-                    <Card.Text>
+                    <Card.Title className={"newsTitle"}>{el.title}</Card.Title>
+                    <Card.Text className={"newsDescription"}>
                         {el.description}
                     </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
+                    <Button className={"newsBtn"} variant="primary">Go somewhere</Button>
                 </Card.Body>
             </Card></Col>
         )
     })
-
     };
 
 
   return (
       <Container>
-          <Jumbotron style={jumbotronStyle}>
-              <h1 className={"jumboHeader"}>Tu będzie tytuł newsa</h1>
+          <Jumbotron onMouseEnter={changeBanner} onMouseLeave={unChangeBanner} className={"jumboNews"} style={jumbotronStyle}>
+              <h1 className={"jumboHeader"}>Harley Quinn Is DC Universe's Best Series</h1>
               <p>
-                  This is a simple hero unit, a simple jumbotron-style component for calling
-                  extra attention to featured content or information.
+                  DC's Harley Quinn, despite being firmly rooted in self-referential comedy, featured a surprisingly faithful and brilliant version of Batman.
               </p>
               <p>
-                  <Button variant="primary">Learn more</Button>
+                  <Button className={"jumboBtn"} variant="primary">More info</Button>
               </p>
           </Jumbotron>
-          <Row>
+          <Row className={"newsRow"}>
               {showAllNews(allNews)}
           </Row>
       </Container>

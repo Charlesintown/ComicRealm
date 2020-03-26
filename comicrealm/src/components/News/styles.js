@@ -4,7 +4,7 @@ const newsPaths = process.env.PUBLIC_URL + '/news/';
 
 
 const jumbotronStyle = {
-  backgroundImage: `url(${newsPaths}banner.jpg)`,
+  backgroundImage: `url(${newsPaths}bannerBlack.jpg)`,
     backgroundPosition: `bottom`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat"

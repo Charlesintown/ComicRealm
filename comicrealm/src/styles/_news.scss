@@ -1,0 +1,79 @@
+.jumboNews {
+  margin-top: 3rem;
+  border: 2px solid white;
+  border-radius: 5px;
+
+  p {
+    color: white;
+    font-size: 1.5rem;
+  }
+}
+
+.jumboNews:hover {
+  box-shadow: 0 0 12px #884DFF;
+
+}
+
+
+
+.jumboHeader {
+  font-size: 4rem;
+  font-weight: bold;
+  text-shadow: 0 0 12px #884DFF;
+
+}
+
+.jumboBtn {
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  font-size: 1.3rem;
+}
+
+.newsRow {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.newsCard {
+  margin: 1rem auto;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%); //eternal contance
+  border: white 2px solid;
+  border-radius: 5px;
+  color: white;
+  height: 28rem;
+}
+
+
+.newsCard:hover {
+  box-shadow: 0 0 12px #884DFF;
+}
+
+.imgNews {
+  height: 45%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.newsTitle {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.newsDescription {
+  font-size: 0.9rem;
+}
+
+.newsBtn {
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  bottom: 0;
+
+}

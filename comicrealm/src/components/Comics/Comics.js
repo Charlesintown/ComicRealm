@@ -79,41 +79,62 @@ const Comics = () => {
       <Container style={{textAlign: "center"}}>
           <div>
               <div style={{textAlign: "right"}}>
-                  <Button variant="primary" onClick={handleShow}>Click to show, what you liked! ({likeTitle})</Button>
-                  <Modal show={show} onHide={handleClose} animation={false}>
-                      <Modal.Header closeButton>
-                          <Modal.Title>Those are titles you like:</Modal.Title>
-                      </Modal.Header>
-                      <Modal.Body style={{textAlign: "center"}}>
-                          {likedArray.map(el => {
-                              return (
-                                  <Row>
-                                      <Col>{el}</Col>
-                                  </Row>
-                              )
-                          })}
-                      </Modal.Body>
-                      <Modal.Footer>
-                          <Button variant="secondary" onClick={handleClose}>
-                              Close
-                          </Button>
-                          <Button variant="primary" onClick={handleClose}>
-                              Save Changes
-                          </Button>
-                      </Modal.Footer>
+                  <Button className={"likedItemsBtn"} variant="primary" onClick={handleShow}>Click to show, what you liked! ({likeTitle})</Button>
+                  <Modal  show={show} onHide={handleClose} animation={false}>
+                      <div className={"modalBox"}>
+                          <Modal.Header closeButton>
+                              <Modal.Title>THOSE ARE TITLES YOU LIKED:</Modal.Title>
+                          </Modal.Header>
+                          <Modal.Body style={{textAlign: "center"}}>
+                              {likedArray.map(el => {
+                                  return (
+                                      <Row>
+                                          <Col>{el}</Col>
+                                      </Row>
+                                  )
+                              })}
+                          </Modal.Body>
+                          <Modal.Footer>
+                              <Button className={"closeModalBtn"} variant="secondary" onClick={handleClose}>
+                                  Close
+                              </Button>
+                          </Modal.Footer>
+                      </div>
                   </Modal>
               </div>
           </div>
           <div className={"avatarButtons"}>
-              <div className={"batAvatar"} id={0} onClick={showHero}> </div>
-              <div className={"batAvatar"} id={1} onClick={showHero}> </div>
-              <div className={"batAvatar"} id={2} onClick={showHero}>  </div>
-              <div className={"batAvatar"} id={3} onClick={showHero}> </div>
-              <div className={"batAvatar"} id={4} onClick={showHero}> </div>
-              <div className={"batAvatar"} id={5} onClick={showHero}> </div>
-              <div className={"batAvatar"} onClick={showAllCovers}> </div>
+              <div className={"heroBox"}>
+                  <div className={"batAvatar"} id={0} onClick={showHero}> </div>
+                  <h4 className={"heroName"}>BATMAN</h4>
+              </div>
+              <div className={"heroBox"}>
+                  <div className={"superAvatar"} id={1} onClick={showHero}> </div>
+                  <h4 className={"heroName"}>SUPERMAN</h4>
+              </div>
+              <div className={"heroBox"}>
+                  <div className={"wonderAvatar"} id={2} onClick={showHero}>  </div>
+                  <h4 className={"heroName"}>WONDER WOMAN</h4>
+              </div>
+              <div className={"heroBox"}>
+                  <div className={"harleyAvatar"} id={3} onClick={showHero}> </div>
+                  <h4 className={"heroName"}>HARLEY QUINN</h4>
+              </div>
+              <div className={"heroBox"}>
+                  <div className={"batgirlAvatar"} id={4} onClick={showHero}> </div>
+                  <h4 className={"heroName"}>BATGIRL</h4>
+              </div>
+              <div className={"heroBox"}>
+                  <div className={"jokerAvatar"} id={5} onClick={showHero}> </div>
+                  <h4 className={"heroName"}>JOKER</h4>
+              </div>
+              <div className={"heroBox"}>
+                  <div className={"allAvatar"} onClick={showAllCovers}> </div>
+                  <h4 className={"heroName"}>ALL</h4>
+              </div>
           </div>
-              {showCovers(covers)}
+
+          {showCovers(covers)}
 
 
 

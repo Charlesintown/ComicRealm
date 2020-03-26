@@ -1,3 +1,11 @@
+.likedItemsBtn {
+  border: none;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  margin-top: 2rem;
+  margin-bottom: 1.2rem;
+  font-size: 1.2rem;
+}
+
 .cardComic {
   background-image: linear-gradient(to top, #09203f 0%, #537895 100%); //eternal contance
 
@@ -24,7 +32,12 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 1rem 0;
+  margin: 2.5rem 0;
+  height: 6.9rem;
+
+  div {
+    text-align: center;
+  }
 }
 
 .comicButton {
@@ -40,6 +53,8 @@
   background-image: url("../avatarButton/bartmanAvblack.jpg");
   background-position: center;
   background-size: cover;
+  transition: 0.2s;
+  cursor: pointer;
 }
 
 .batAvatar:hover {
@@ -47,5 +62,184 @@
   background-image: url("../avatarButton/bartmanAvcol.jpg");
   background-position: center;
   background-size: cover;
+  height: 6.6rem;
+  width: 6.6rem;
+  transition: 0.2s;
 
 }
+
+.superAvatar {
+  height: 6rem;
+  width: 6rem;
+  border: 2px white solid;
+  border-radius: 50%;
+  background-image: url("../avatarButton/supermanAvblack.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: 0.2s;
+  cursor: pointer;
+
+}
+
+.superAvatar:hover {
+  box-shadow: 0 0 12px #884DFF;
+  background-image: url("../avatarButton/supermanAvcol.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 6.6rem;
+  width: 6.6rem;
+  transition: 0.2s;
+
+
+}
+
+.wonderAvatar {
+  height: 6rem;
+  width: 6rem;
+  border: 2px white solid;
+  border-radius: 50%;
+  background-image: url("../avatarButton/wonderRebAvblack.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: 0.2s;
+  margin-left: 0.7rem;
+  cursor: pointer;
+
+}
+
+.wonderAvatar:hover {
+  box-shadow: 0 0 12px #884DFF;
+  background-image: url("../avatarButton/wonderReAvCol.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 6.6rem;
+  width: 6.6rem;
+  transition: 0.2s;
+
+}
+
+.harleyAvatar {
+  height: 6rem;
+  width: 6rem;
+  border: 2px white solid;
+  border-radius: 50%;
+  background-image: url("../avatarButton/harleyAvblack.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: 0.2s;
+  cursor: pointer;
+
+}
+
+.harleyAvatar:hover {
+  height: 6.6rem;
+  width: 6.6rem;
+  transition: 0.2s;
+  box-shadow: 0 0 12px #884DFF;
+  background-image: url("../avatarButton/harleyAvcol.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.jokerAvatar {
+  height: 6rem;
+  width: 6rem;
+  border: 2px white solid;
+  border-radius: 50%;
+  background-image: url("../avatarButton/jokerAvblack.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: 0.2s;
+  cursor: pointer;
+
+}
+
+.jokerAvatar:hover {
+  height: 6.6rem;
+  width: 6.6rem;
+  transition: 0.2s;
+  box-shadow: 0 0 12px #884DFF;
+  background-image: url("../avatarButton/jokerAvcol.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.batgirlAvatar {
+  height: 6rem;
+  width: 6rem;
+  border: 2px white solid;
+  border-radius: 50%;
+  background-image: url("../avatarButton/batgirlAvblack.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: 0.2s;
+  cursor: pointer;
+
+}
+
+.batgirlAvatar:hover {
+  height: 6.6rem;
+  width: 6.6rem;
+  transition: 0.2s;
+  box-shadow: 0 0 12px #884DFF;
+  background-image: url("../avatarButton/batgirlAvcol.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.allAvatar {
+  height: 6rem;
+  width: 6rem;
+  border: 2px white solid;
+  border-radius: 50%;
+  background-image: url("../avatarButton/allAvblack.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: 0.2s;
+  cursor: pointer;
+
+}
+
+.allAvatar:hover {
+  height: 6.6rem;
+  width: 6.6rem;
+  transition: 0.2s;
+  box-shadow: 0 0 12px #884DFF;
+  background-image: url("../avatarButton/allAvcol.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+
+
+.heroName {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.heroBox:hover {
+  text-shadow: 0 0 12px #884DFF;
+}
+
+.modalBox {
+  background: url("../avatarButton/allRebirthModal.jpg") no-repeat center;
+  background-size: cover;
+  color: white;
+  text-shadow: 0 0 15px #884DFF;
+  border: 2px solid white;
+  border-radius: 5px;
+  box-shadow: 0 0 15px #884DFF;
+
+
+
+  .closeModalBtn {
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    opacity: 100%;
+  }
+ }
