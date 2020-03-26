@@ -7,7 +7,6 @@ import {
     Switch,
     NavLink,
 } from 'react-router-dom';
-import Button from 'react-bootstrap/Button';
 import NavBar from "./components/navBar/NavBar";
 import MainPage from "./components/landingPage/MainPage";
 import Comics from "./components/Comics/Comics";

@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="21356c9c-1023-4f4d-a39e-6d50d6eeeccb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comicrealm/src/components/Comics/Comics.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/components/Comics/Comics.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comicrealm/src/components/News/News.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/components/News/News.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comicrealm/src/components/News/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/components/News/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comicrealm/src/newsDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/newsDB.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comicrealm/src/styles/_comics.scss" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/styles/_comics.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/components/AboutMe/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/components/AboutMe/AboutMe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/components/Contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/components/Contact/Contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comicrealm/src/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/styles/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +62,7 @@
       <workItem from="1585037214606" duration="24364000" />
       <workItem from="1585123271255" duration="29136000" />
       <workItem from="1585207178579" duration="17624000" />
-      <workItem from="1585239764057" duration="275000" />
+      <workItem from="1585239764057" duration="7202000" />
     </task>
     <servers />
   </component>
@@ -83,9 +82,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="761" y="472" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1584986177214" />
-    <state x="657" y="198" width="670" height="676" key="search.everywhere.popup" timestamp="1584980013780">
+    <state x="657" y="198" width="672" height="676" key="search.everywhere.popup" timestamp="1585241299883">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="657" y="198" width="670" height="676" key="search.everywhere.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1584980013780" />
+    <state x="657" y="198" width="672" height="676" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1585241299883" />
   </component>
 </project>

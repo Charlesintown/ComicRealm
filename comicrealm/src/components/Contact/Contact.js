@@ -10,7 +10,16 @@ import { Container, Row,  Col} from 'react-bootstrap';
 
 
 const Contact = () => {
-  return <h1>Jesteśmy w kontakcie</h1>
+
+
+
+  return (
+      <Container>
+          <Row>
+              <h1>Ta sekcja jeszcze nie istnieje. ale będzie</h1>
+          </Row>
+      </Container>
+  )
 };
 
 export default Contact;
