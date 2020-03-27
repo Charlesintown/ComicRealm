@@ -6,7 +6,7 @@ const AboutMe = () => {
 
 
     return (
-        <Container>
+        <Container className={"containerBox"}>
             <Row className={"aboutSection"}>
                 <Col xs={4}>
                     <div className={"photoSide"}>

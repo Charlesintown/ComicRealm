@@ -12,7 +12,7 @@ import { Container, Row,  Col} from 'react-bootstrap';
 const Footer = () => {
     return (
         <div className={"footerBg"}>
-            <Container>
+            <Container className={"containerBox"}>
                 <Row>
                     <Col>
                         <h4><i className="fas fa-book-dead"></i> COMICREALM</h4>
