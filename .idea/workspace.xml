@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21356c9c-1023-4f4d-a39e-6d50d6eeeccb" name="Default Changelist" comment="" />
+    <list default="true" id="21356c9c-1023-4f4d-a39e-6d50d6eeeccb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/public/news/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/public/news/bannerBlack.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/news/bannerBlack.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/public/news/bannerCol.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/news/bannerCol.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/aboutImg/aboutBlack.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/aboutImg/aboutBlack.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/aboutImg/aboutCol.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/aboutImg/aboutCol.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/welcomeCovers/allRebirthblack.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/welcomeCovers/allRebirthblack.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/welcomeCovers/allRebirthcol.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/welcomeCovers/allRebirthcol.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/welcomeCovers/bartmanRebblack.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/welcomeCovers/bartmanRebblack.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/welcomeCovers/bartmanRebcol.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/welcomeCovers/bartmanRebcol.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/welcomeCovers/flashRebblack.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/welcomeCovers/flashRebblack.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/welcomeCovers/flashRebcol.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/welcomeCovers/flashRebcol.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/welcomeCovers/harleyRebblack.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/welcomeCovers/harleyRebblack.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/welcomeCovers/harleyRebcol.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/welcomeCovers/harleyRebcol.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/welcomeCovers/wonderRebblack.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/welcomeCovers/wonderRebblack.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/welcomeCovers/wonderRebcol.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/welcomeCovers/wonderRebcol.jpg" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +75,7 @@
       <workItem from="1585207178579" duration="17624000" />
       <workItem from="1585239764057" duration="7343000" />
       <workItem from="1585294883537" duration="6157000" />
+      <workItem from="1585322666580" duration="1916000" />
     </task>
     <servers />
   </component>
