@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="21356c9c-1023-4f4d-a39e-6d50d6eeeccb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comicrealm/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comicrealm/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comicrealm/src/components/AboutMe/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/components/AboutMe/AboutMe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comicrealm/src/components/Contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/components/Contact/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comicrealm/src/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/styles/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/components/landingPage/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/components/landingPage/MainPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +58,8 @@
       <workItem from="1585037214606" duration="24364000" />
       <workItem from="1585123271255" duration="29136000" />
       <workItem from="1585207178579" duration="17624000" />
-      <workItem from="1585239764057" duration="7202000" />
+      <workItem from="1585239764057" duration="7343000" />
+      <workItem from="1585294883537" duration="6157000" />
     </task>
     <servers />
   </component>
