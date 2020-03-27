@@ -1,0 +1,31 @@
+.footerBg {
+  position: absolute;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  background-size: cover;
+  height: 6vh;
+  bottom: 0;
+  width: 100%;
+  color: white;
+
+  h4 {
+    opacity: 50%;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .footerLink {
+    text-align: right;
+    margin-top: 1rem;
+
+  }
+  .welcomeLink {
+    color: white;
+    text-decoration: none;
+
+  }
+
+
+  .welcomeLink:hover {
+    text-shadow: 0 0 10px #884DFF;
+  }
+}

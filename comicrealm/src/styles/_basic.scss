@@ -1,0 +1,16 @@
+* {
+  font-family: 'Oswald', sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%); //dense water
+}
+
+#root {
+  position: relative;
+  min-height: 100vh;
+}
+
+.contentWrap {
+  padding-bottom: 6vh;
+}

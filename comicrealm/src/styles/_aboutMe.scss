@@ -1,0 +1,54 @@
+.aboutSection {
+  margin-top: 20vh;
+  color: white;
+
+  h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-shadow: 0 0 10px #884DFF;
+
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+
+  i {
+    text-shadow: 0 0 10px #884DFF;
+
+  }
+
+  span {
+    font-weight: bold;
+  }
+}
+
+.aboutQuestion {
+  display: block;
+  font-size: 2rem;
+  text-shadow: 0 0 10px #884DFF;
+  margin-top: 2rem;
+
+}
+
+.aboutSide {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 1rem;
+  height: 30rem;
+}
+
+.photoSide {
+  border: 2px solid white;
+  border-radius: 5px;
+  height: 30rem;
+  background: url("../aboutImg/aboutBlack.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.photoSide:hover {
+  box-shadow: 0 0 15px #884DFF;
+  background: url("../aboutImg/aboutCol.jpg") center no-repeat;
+  background-size: cover;
+}
