@@ -6,7 +6,18 @@ import {
     Switch,
     NavLink,
 } from 'react-router-dom';
-import {Container, Row, Col, Image, Card, Button, Dropdown, DropdownButton, Modal} from 'react-bootstrap';
+import {
+    Container,
+    Row,
+    Col,
+    Image,
+    Card,
+    Button,
+    Dropdown,
+    DropdownButton,
+    Modal,
+    OverlayTrigger, Tooltip
+} from 'react-bootstrap';
 import comicDB from "../../comicsDB";
 
 const coverPaths = process.env.PUBLIC_URL + '/covers/';
@@ -37,16 +48,29 @@ const Comics = () => {
           return (
               hero.map(el => {
                   return (
-                      <Card className={"cardComic"}>
-                          <Card.Img variant="top" src={`${coverPaths + el.cover}`} />
-                          <Card.Body>
-                              <Card.Title className={"cardComicTitle"}>{el.title}</Card.Title>
-                              {/*<Card.Text style={{fontSize: "1rem"}}>*/}
-                              {/*    {el.description}*/}
-                              {/*</Card.Text>*/}
-                              <Button className={"comicButton"} onClick={likeIt} variant="primary"><i className="far fa-heart"></i> I want it!</Button>
-                          </Card.Body>
-                      </Card>
+                      <>
+                          {['top'].map((placement) => (
+                              <>
+                                  <OverlayTrigger
+                                      key={placement}
+                                      placement={placement}
+                                      overlay={
+                                          <Tooltip className={"comicDesc"} id={`tooltip-${placement}`}>
+                                              {el.description}
+                                          </Tooltip>
+                                      }>
+                                      <Card className={"cardComic"}>
+                                          <Card.Img variant="top" src={`${coverPaths + el.cover}`} />
+                                          <Card.Body>
+                                              <Card.Title className={"cardComicTitle"}>{el.title}</Card.Title>
+                                              <Button className={"comicButton"} onClick={likeIt} variant="primary"><i className="far fa-heart"></i> I want it!</Button>
+                                          </Card.Body>
+                                      </Card>
+                                  </OverlayTrigger>{' '}
+                              </>
+                          ))}
+                      </>
+
                   )
               })
           )

@@ -21,7 +21,7 @@ const MainPage = () => {
                 <Row className={"landingRow landRow1"}>
                     <Col xs={2}><h2>COMICS</h2></Col>
                     <Col xs={8}></Col>
-                    <Col xs={2} className={"linkCol"}><Link className={"mainLinks"} to={'/comics'}>GO! <i className="fas fa-angle-double-right"></i></Link></Col>
+                    <Col xs={2} className={"linkCol"}><Link className={"mainLinks"} to={'/comics'}>GO! p</Link></Col>
                 </Row>
                 <Row className={"landingRow landRow2"}>
                     <Col xs={2}><h2>NEWS</h2></Col>

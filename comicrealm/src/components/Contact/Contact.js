@@ -1,15 +1,10 @@
 import React from 'react';
-import {
-    HashRouter,
-    Route,
-    Link,
-    Switch,
-    NavLink,
-} from 'react-router-dom';
-import { Container, Row,  Col} from 'react-bootstrap';
+import { Container, Row,  Col, Button, Tooltip, OverlayTrigger} from 'react-bootstrap';
 
 
 const Contact = () => {
+
+
 
 
 

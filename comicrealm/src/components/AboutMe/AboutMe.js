@@ -8,12 +8,12 @@ const AboutMe = () => {
     return (
         <Container>
             <Row className={"aboutSection"}>
-                <Col>
+                <Col xs={4}>
                     <div className={"photoSide"}>
-                        Tu będzie zdjęcie
+
                     </div>
                 </Col>
-                <Col>
+                <Col xs={8}>
                     <div className={"aboutSide"}>
                         <h1>So, who am I?</h1>
                         <p>
