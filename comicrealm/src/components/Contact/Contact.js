@@ -9,9 +9,9 @@ const Contact = () => {
 
 
   return (
-      <Container>
+      <Container className={"containerBox"}>
           <Row>
-              <h1>Ta sekcja jeszcze nie istnieje. ale będzie</h1>
+              <h1>This section will be finished soon</h1>
           </Row>
       </Container>
   )

@@ -12,7 +12,7 @@ const NavBar = () => {
     return (
         <>
             <div className={"navBarBg"}>
-                <Container>
+                <Container className={"containerBox"}>
                     <Row className={"navRow"}>
                         <Col>
                             <Link className={"navLinks brandName"} to={'/main'}><i className="fas fa-book-dead"></i> COMICREALM</Link>

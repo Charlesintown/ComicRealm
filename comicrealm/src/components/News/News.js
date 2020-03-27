@@ -62,7 +62,7 @@ const News = () => {
 
 
   return (
-      <Container>
+      <Container className={"containerBox"}>
           <Jumbotron onMouseEnter={changeBanner} onMouseLeave={unChangeBanner} className={"jumboNews"} style={jumbotronStyle}>
               <h1 className={"jumboHeader"}>Harley Quinn Is DC Universe's Best Series</h1>
               <p>

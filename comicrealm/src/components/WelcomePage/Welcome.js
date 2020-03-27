@@ -11,7 +11,7 @@ import { Container, Row,  Col} from 'react-bootstrap';
 
 const Welcome = () => {
     return (
-        <Container>
+        <Container className={"containerBox"}>
             <Row>
                 <Col className={"welcomeColumn"}>
                     <h1>WELCOME TO THE <span>COMICREALM</span></h1>

@@ -100,7 +100,7 @@ const Comics = () => {
 
 
   return (
-      <Container style={{textAlign: "center"}}>
+      <Container className={"containerBox"} style={{textAlign: "center"}}>
           <div>
               <div style={{textAlign: "right"}}>
                   <Button className={"likedItemsBtn"} variant="primary" onClick={handleShow}>Click to show, what you liked! ({likeTitle})</Button>

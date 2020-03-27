@@ -11,7 +11,7 @@ import { Container, Row,  Col} from 'react-bootstrap';
 
 const MainPage = () => {
     return (
-        <Container>
+        <Container className={"containerBox"}>
             <div className={"landingSection"}>
                 <Row>
                     <Col>
