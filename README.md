@@ -13,6 +13,7 @@ It's not finished yet. It sttill lack of some features.
 * Bootstrap 4,
 * JavaScript (ES6),
 * Webpack,
+* SASS/SCSS
 
 
 ## note
