@@ -1,9 +1,14 @@
+@import "basic";
+
 .likedItemsBtn {
   border: none;
   background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   margin-top: 2rem;
   margin-bottom: 1.2rem;
   font-size: 1.2rem;
+  @media(max-width: $bp-mobile) {
+    display: none;
+  }
 }
 
 .cardComic {
@@ -15,6 +20,10 @@
   border-radius: 5px;
   width: 13rem;
   display: inline-block;
+  @media(max-width: $bp-mobile) {
+    width: 45%;
+    display: inline-block;
+  }
 }
 
 .cardComic:hover {
@@ -37,6 +46,11 @@
 
   div {
     text-align: center;
+  }
+
+  @media(max-width: $bp-mobile) {
+    flex-wrap: wrap;
+    margin-bottom: 15vh;
   }
 }
 
@@ -221,6 +235,9 @@
   font-size: 1.2rem;
   color: white;
   font-weight: bold;
+  @media(max-width: $bp-mobile) {
+    display: none;
+  }
 }
 
 .heroBox:hover {
@@ -248,4 +265,11 @@
   font-size: 1.2rem;
   text-shadow: 0 0 15px #884DFF;
 
+}
+
+@media(max-width: $bp-mobile) {
+  .batAvatar, .superAvatar, .wonderAvatar, .harleyAvatar, .batgirlAvatar, .jokerAvatar, .allAvatar {
+    height: 5rem;
+    width: 5rem;
+  }
 }

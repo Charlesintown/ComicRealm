@@ -1,3 +1,5 @@
+@import "basic";
+
 .landingSection {
   margin-top: 10%;
 
@@ -67,6 +69,9 @@
       color: white;
       font-size: 2rem;
       text-decoration: none;
+      @media(max-width: $bp-mobile) {
+        font-size: 1.2rem;
+      }
 
     }
 
@@ -80,5 +85,21 @@
     box-shadow: 0 0 15px #884DFF;
     text-shadow: 0 0 10px #884DFF;
   }
+
+}
+
+@media(max-width: $bp-mobile) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .landRow1, .landRow2, .landRow3, .landRow4 {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+
 
 }

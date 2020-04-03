@@ -6,21 +6,35 @@
   bottom: 0;
   width: 100%;
   color: white;
+  @media(max-width: 550px) {
+    font-size: 0.7rem;
+    padding: 0;
+    margin: 0;
+  }
 
   h4 {
     opacity: 50%;
     margin-top: 1rem;
     font-size: 1.2rem;
+    @media(max-width: 550px) {
+      font-size: 0.7rem;
+    }
   }
 
   .footerLink {
     text-align: right;
     margin-top: 1rem;
+    @media(max-width: 550px) {
+      margin-top: 0;
+    }
 
   }
   .welcomeLink {
     color: white;
     text-decoration: none;
+    @media(max-width: 550px) {
+      margin-top: 0.5rem;
+    }
 
   }
 

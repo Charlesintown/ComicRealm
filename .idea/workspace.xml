@@ -3,14 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="21356c9c-1023-4f4d-a39e-6d50d6eeeccb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comicrealm/src/components/AboutMe/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/components/AboutMe/AboutMe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comicrealm/src/components/Comics/Comics.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/components/Comics/Comics.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comicrealm/src/components/Contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/components/Contact/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comicrealm/src/components/News/News.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/components/News/News.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comicrealm/src/components/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/components/footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comicrealm/src/components/landingPage/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/components/landingPage/MainPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comicrealm/src/components/navBar/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/components/navBar/NavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/styles/_aboutMe.scss" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/styles/_aboutMe.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comicrealm/src/styles/_basic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/styles/_basic.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/styles/_comics.scss" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/styles/_comics.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/styles/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/styles/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/styles/_landingPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/styles/_landingPage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/styles/_navBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/styles/_navBar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comicrealm/src/styles/_welcomePage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/comicrealm/src/styles/_welcomePage.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,11 @@
       <workItem from="1585239764057" duration="7343000" />
       <workItem from="1585294883537" duration="6157000" />
       <workItem from="1585322666580" duration="2144000" />
-      <workItem from="1585331210398" duration="443000" />
+      <workItem from="1585331210398" duration="1740000" />
+      <workItem from="1585489645785" duration="6000" />
+      <workItem from="1585577390601" duration="599000" />
+      <workItem from="1585581749971" duration="20000" />
+      <workItem from="1585929082091" duration="3110000" />
     </task>
     <servers />
   </component>
@@ -85,6 +89,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1584958923840" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585581765819">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1585581765819" />
     <state x="761" y="472" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584986177214">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

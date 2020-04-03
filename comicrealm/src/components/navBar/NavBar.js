@@ -14,6 +14,9 @@ const NavBar = () => {
             <div className={"navBarBg"}>
                 <Container className={"containerBox"}>
                     <Row className={"navRow"}>
+                        <div className={"hiddenDiv"}>
+                            <Link className={"hiddenLogo"} to={'/main'}><i className="fas fa-book-dead"></i> COMICREALM</Link>
+                        </div>
                         <Col>
                             <Link className={"navLinks brandName"} to={'/main'}><i className="fas fa-book-dead"></i> COMICREALM</Link>
                         </Col>

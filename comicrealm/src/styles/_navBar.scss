@@ -10,10 +10,16 @@
   .navRow {
     text-align: center;
     padding-top: 2.7vh;
+    @media(max-width: 550px) {
+      padding-top: 1vh;
+    }
   }
 
   .brandName {
     font-weight: bold;
+    @media(max-width: 550px) {
+      font-size: 0.6rem;
+    }
 
   }
 
@@ -22,10 +28,35 @@
     margin-top: 5rem;
     font-size: 1.3rem;
     text-decoration: none;
+    @media(max-width: 550px) {
+      font-size: 0.7rem;
+      display: none;
+    }
   }
 
   .navLinks:hover {
     text-shadow: 0 0 10px #884DFF;
+  }
+}
+
+.hiddenDiv {
+  @media(max-width: 550px) {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.hiddenLogo {
+  display: none;
+  width: 100%;
+  @media(max-width: 550px) {
+    display: block;
+    margin-top: 0.3rem;
+    color: white;
+    text-shadow: 0 0 10px #884DFF;
+    .hiddenLogo:hover {
+      color: white;
+    }
   }
 }
 

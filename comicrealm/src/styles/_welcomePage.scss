@@ -15,6 +15,15 @@
     text-shadow: 0 0 10px #884DFF;
 
   }
+
+  @media(max-width: 550px) {
+    h1 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
 }
 
 .imgBox {
@@ -100,5 +109,22 @@
   a:hover {
     box-shadow: 0 0 10px #884DFF;;
 
+  }
+}
+
+@media(max-width: 550px) {
+  .enterPageLink {
+    a {
+      padding: 0.5rem 2rem;
+      font-size: 1rem;
+    }
+  }
+
+
+}
+
+@media(max-width: 550px) {
+  .iB1, .iB2, .iB3, .iB4, .iB5 {
+    background-position: center;
   }
 }
