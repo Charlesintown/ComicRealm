@@ -124,7 +124,8 @@
 }
 
 @media(max-width: 550px) {
-  .iB1, .iB2, .iB3, .iB4, .iB5 {
+  .iB1, .iB2, .iB3, .iB4, .iB5,
+  .iB1:hover, .iB2:hover, .iB3:hover, .iB4:hover, .iB5:hover {
     background-position: center;
   }
 }

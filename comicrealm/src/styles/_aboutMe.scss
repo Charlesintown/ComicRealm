@@ -10,7 +10,8 @@
     margin-bottom: 1.5rem;
     text-shadow: 0 0 10px #884DFF;
     @media(max-width: $bp-mobile) {
-      font-size: 2rem;
+      font-size: 1.7rem;
+      margin-bottom: 0.9rem;
     }
 
   }
@@ -18,7 +19,7 @@
   p {
     font-size: 1.4rem;
     @media(max-width: $bp-mobile) {
-      font-size: 1rem;
+      font-size: 0.9rem;
     }
   }
 
@@ -38,7 +39,8 @@
   text-shadow: 0 0 10px #884DFF;
   margin-top: 2rem;
   @media(max-width: $bp-mobile) {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
   }
 
 }
